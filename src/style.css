@@ -29,31 +29,34 @@
 }
 
 .btn.refresh {
-    box-shadow: 1px 3px rgb(192, 187, 187);
+  box-shadow: 1px 3px rgb(192, 187, 187);
 }
 
-td, th {
+td,
+th {
   border: 1px solid white;
   text-align: left;
   padding-left: 2px;
 }
+
 tr:nth-child(even) {
   background-color: rgb(219, 214, 214);
 }
+
 td:nth-child(even) {
   width: 100%;
 }
 
 table {
-    border: black;
+  border: black;
 }
 
 .recent-s {
-    width: 50%;
+  width: 50%;
 }
 
 .submit-btn {
-    box-shadow: 3px 3px rgb(219, 214, 214);
-    margin-inline-start: auto;
-    padding: 9px;
+  box-shadow: 3px 3px rgb(219, 214, 214);
+  margin-inline-start: auto;
+  padding: 9px;
 }
