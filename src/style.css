@@ -7,7 +7,7 @@
 
 .wrapper {
   padding: 50px;
-  margin-inline: auto;
+  margin: 0 auto;
   width: 60%;
   height: 60vh;
   margin-top: 15%;
@@ -21,15 +21,22 @@
 .score-title-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .add-s {
-  padding-top: 25px;
   gap: 25px;
 }
 
-.btn.refresh {
+.btn-refresh {
   box-shadow: 1px 3px rgb(192, 187, 187);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  padding: 8px;
 }
 
 td,
@@ -49,6 +56,7 @@ td:nth-child(even) {
 
 table {
   border: black;
+  border-collapse: collapse;
 }
 
 .recent-s {
@@ -57,6 +65,13 @@ table {
 
 .submit-btn {
   box-shadow: 3px 3px rgb(219, 214, 214);
-  margin-inline-start: auto;
+  margin: 0 auto;
+  display: block;
   padding: 9px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
 }
