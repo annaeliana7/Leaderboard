@@ -5,6 +5,26 @@
   font-family: 'poppins', sans-serif, Arial;
 }
 
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+    height: 80vh;
+    margin-top: 10%;
+  }
+
+  .display {
+    flex-direction: column;
+  }
+
+  .recent-s {
+    width: 100%;
+  }
+
+  .add-s {
+    margin-top: 25px;
+  }
+}
+
 .wrapper {
   padding: 50px;
   margin: 0 auto;
