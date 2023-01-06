@@ -1,78 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif, Arial;
-  }
-  
-  .wrapper {
-    padding: 50px;
-    margin: 0 auto;
-    width: 60%;
-    height: 60vh;
-    margin-top: 15%;
-  }
-  
-  .display {
-    display: flex;
-    gap: 25px;
-  }
-  
-  .score-title-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .add-s {
-    gap: 25px;
-  }
-  
-  .btn-refresh {
-    box-shadow: 1px 3px rgb(192, 187, 187);
-    cursor: pointer;
-    background: none;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: #666;
-    padding: 8px;
-  }
-  
-  td,
-  th {
-    border: 1px solid white;
-    text-align: left;
-    padding-left: 2px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: rgb(219, 214, 214);
-  }
-  
-  td:nth-child(even) {
-    width: 100%;
-  }
-  
-  table {
-    border: black;
-    border-collapse: collapse;
-  }
-  
-  .recent-s {
-    width: 50%;
-  }
-  
-  .submit-btn {
-    box-shadow: 3px 3px rgb(219, 214, 214);
-    margin: 0 auto;
-    display: block;
-    padding: 9px;
-    background: none;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: #666;
-    cursor: pointer;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif, Arial;
+}
+
+.wrapper {
+  padding: 50px;
+  margin: 0 auto;
+  width: 60%;
+  height: 60vh;
+  margin-top: 15%;
+}
+
+.display {
+  display: flex;
+  gap: 25px;
+}
+
+.score-title-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-s {
+  gap: 25px;
+}
+
+.btn-refresh {
+  box-shadow: 1px 3px rgb(192, 187, 187);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  padding: 8px;
+}
+
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+  padding-left: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(219, 214, 214);
+}
+
+td:nth-child(even) {
+  width: 100%;
+}
+
+table {
+  border: black;
+  border-collapse: collapse;
+}
+
+.recent-s {
+  width: 50%;
+}
+
+.submit-btn {
+  box-shadow: 3px 3px rgb(219, 214, 214);
+  margin: 0 auto;
+  display: block;
+  padding: 9px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+}
+
