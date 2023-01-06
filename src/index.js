@@ -5,5 +5,5 @@ import postScore from './module/post.js';
 const form = document.querySelector('.submit-btn');
 const refresh = document.querySelector('.btn-refresh');
 
-form.addEventListener('submit', postScore);
+form.addEventListener('click', postScore);
 refresh.addEventListener('click', pullScore);

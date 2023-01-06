@@ -11,8 +11,8 @@ const postScore = async (e) => {
     {
       method: 'POST',
       body: JSON.stringify({
-        name,
-        score,
+        user: name.value,
+        score: score.value,
       }),
       headers: {
         'content-type': 'application/json; charset=utf-8',
@@ -20,7 +20,8 @@ const postScore = async (e) => {
     },
   );
 
-  e.target.reset();
+  name.value = '';
+  score.value = '';
   pullScore();
 };
 
