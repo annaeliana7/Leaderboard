@@ -15,7 +15,7 @@
   .display {
     flex-direction: column;
     gap: 33px;
-    padding-bottom:66px;
+    padding-bottom: 66px;
   }
 
   .recent-s {
@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .add-s {
@@ -70,34 +71,26 @@ h1 {
   margin-bottom: 33px;
 }
 
-.score-wrap tr td, .score-wrap tr th {
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+td:nth-child(even) {
+  width: 100%;
+}
+
+.score-wrap tr td,
+.score-wrap tr th {
   border: 1px solid #333;
   width: 100%;
   padding: 8px 10px;
 }
 
-.score-title-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 10px;
-}
-
-td,
-th {
-  border: 1px solid white;
-  text-align: left;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding: 10px 15px;
-}
-
 tr:nth-child(even) {
   background-color: rgb(219, 214, 214);
-}
-
-td:nth-child(even) {
-  width: 100%;
 }
 
 table {
@@ -134,7 +127,6 @@ table {
 #user-name {
   margin-top: 23px;
   margin-bottom: 5px;
-  padding: 10px;
   width: 100%;
   color: #fff;
   padding: 8px 10px;
@@ -143,7 +135,6 @@ table {
 
 #user-score {
   margin-top: 9px;
-  padding: 9px;
   width: 100%;
   color: #fff;
   padding: 8px 10px;
