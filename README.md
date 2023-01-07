@@ -57,7 +57,7 @@
 
 ## Project Demo Image
 <br>
-<img align="center" src="project_demo.png" alt="logo" width="66%"  height="auto" />
+<img align="center" src="project_demo.png" alt="logo" width="100%"  height="auto" />
 
   <br/>
 
