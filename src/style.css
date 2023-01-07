@@ -14,6 +14,7 @@
 
   .display {
     flex-direction: column;
+    gap: 33px;
   }
 
   .recent-s {
@@ -26,7 +27,6 @@
 }
 
 .wrapper {
-  padding: 50px;
   margin: 0 auto;
   width: 60%;
   height: 60vh;
@@ -35,7 +35,7 @@
 
 .display {
   display: flex;
-  gap: 25px;
+  gap: 66px;
 }
 
 .score-title-list {
@@ -46,17 +46,40 @@
 
 .add-s {
   gap: 25px;
+  flex: 1;
 }
 
 .btn-refresh {
-  box-shadow: 1px 3px rgb(192, 187, 187);
-  cursor: pointer;
+  box-shadow: 3px 3px rgb(192, 187, 187);
+  display: block;
+  padding: 9px;
   background: none;
   border: none;
   font-size: 16px;
   font-weight: 500;
-  color: #666;
-  padding: 8px;
+  color: rgb(102, 97, 97);
+  cursor: pointer;
+}
+
+.btn-refresh:hover {
+  background-color: rgb(196, 180, 212);
+}
+
+h1 {
+  margin-bottom: 33px;
+}
+
+.score-wrap tr td, .score-wrap tr th {
+  border: 1px solid #333;
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.score-title-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 td,
@@ -64,6 +87,8 @@ th {
   border: 1px solid white;
   text-align: left;
   padding-left: 2px;
+  padding-right: 2px;
+  padding: 10px 15px;
 }
 
 tr:nth-child(even) {
@@ -83,15 +108,43 @@ table {
   width: 50%;
 }
 
+.add-submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .submit-btn {
-  box-shadow: 3px 3px rgb(219, 214, 214);
-  margin: 0 auto;
+  box-shadow: 3px 3px rgb(192, 187, 187);
   display: block;
   padding: 9px;
   background: none;
   border: none;
   font-size: 16px;
   font-weight: 500;
-  color: #666;
+  color: rgb(102, 97, 97);
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: rgb(196, 180, 212);
+}
+
+#user-name {
+  margin-top: 23px;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  padding: 8px 10px;
+  border: 1px solid #333;
+}
+
+#user-score {
+  margin-top: 9px;
+  padding: 9px;
+  width: 100%;
+  color: #fff;
+  padding: 8px 10px;
+  border: 1px solid #333;
 }
