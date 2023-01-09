@@ -31,7 +31,7 @@
   margin: 0 auto;
   width: 60%;
   height: 60vh;
-  margin-top: 15%;
+  margin-top: 45px;
 }
 
 .display {
@@ -87,6 +87,10 @@ td:nth-child(even) {
   border: 1px solid #333;
   width: 100%;
   padding: 8px 10px;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
 }
 
 tr:nth-child(even) {
